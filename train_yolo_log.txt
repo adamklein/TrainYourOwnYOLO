@@ -1,0 +1,192 @@
+Train on 594 samples, val on 66 samples, with batch size 32.
+W1101 04:19:23.214877 140108475803392 deprecation_wrapper.py:119] From /home/ubuntu/anaconda3/envs/own_yolo/lib/python3.6/site-packages/keras/callbacks.py:850: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+W1101 04:19:23.215206 140108475803392 deprecation_wrapper.py:119] From /home/ubuntu/anaconda3/envs/own_yolo/lib/python3.6/site-packages/keras/callbacks.py:853: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+Epoch 1/51
+2019-11-01 04:19:34.711686: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] shape_optimizer failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 04:19:34.776424: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] remapper failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 04:19:35.005259: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] layout failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 04:19:35.301767: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] shape_optimizer failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 04:19:35.347555: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] remapper failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 04:19:36.299376: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-11-01 04:19:39.187920: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+17/18 [===========================>..] - ETA: 7s - loss: 5352.6528 2019-11-01 04:21:35.420332: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] remapper failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 04:21:35.579511: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] layout failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 04:21:35.766911: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] remapper failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+18/18 [==============================] - 133s 7s/step - loss: 5157.5481 - val_loss: 1469.9719
+Epoch 2/51
+18/18 [==============================] - 131s 7s/step - loss: 917.8777 - val_loss: 410.2966
+Epoch 3/51
+18/18 [==============================] - 132s 7s/step - loss: 352.5366 - val_loss: 220.9055
+Epoch 4/51
+18/18 [==============================] - 125s 7s/step - loss: 226.3535 - val_loss: 159.5759
+Epoch 5/51
+18/18 [==============================] - 129s 7s/step - loss: 176.3003 - val_loss: 133.0619
+Epoch 6/51
+18/18 [==============================] - 109s 6s/step - loss: 144.4519 - val_loss: 119.3536
+Epoch 7/51
+18/18 [==============================] - 128s 7s/step - loss: 120.1691 - val_loss: 90.0863
+Epoch 8/51
+18/18 [==============================] - 127s 7s/step - loss: 106.3469 - val_loss: 83.4257
+Epoch 9/51
+18/18 [==============================] - 130s 7s/step - loss: 95.9178 - val_loss: 78.2820
+Epoch 10/51
+18/18 [==============================] - 133s 7s/step - loss: 84.9103 - val_loss: 66.1366
+Epoch 11/51
+18/18 [==============================] - 126s 7s/step - loss: 75.6942 - val_loss: 63.3361
+Epoch 12/51
+18/18 [==============================] - 128s 7s/step - loss: 70.3701 - val_loss: 58.3132
+Epoch 13/51
+18/18 [==============================] - 134s 7s/step - loss: 65.2267 - val_loss: 54.2679
+Epoch 14/51
+18/18 [==============================] - 125s 7s/step - loss: 61.2721 - val_loss: 50.6136
+Epoch 15/51
+18/18 [==============================] - 131s 7s/step - loss: 56.8214 - val_loss: 47.7611
+Epoch 16/51
+18/18 [==============================] - 127s 7s/step - loss: 54.5340 - val_loss: 45.8385
+Epoch 17/51
+18/18 [==============================] - 131s 7s/step - loss: 50.0738 - val_loss: 45.8639
+Epoch 18/51
+18/18 [==============================] - 130s 7s/step - loss: 48.0260 - val_loss: 40.9850
+Epoch 19/51
+18/18 [==============================] - 129s 7s/step - loss: 46.3694 - val_loss: 41.1546
+Epoch 20/51
+18/18 [==============================] - 131s 7s/step - loss: 44.8867 - val_loss: 38.1978
+Epoch 21/51
+18/18 [==============================] - 128s 7s/step - loss: 41.8300 - val_loss: 38.8931
+Epoch 22/51
+18/18 [==============================] - 131s 7s/step - loss: 40.7048 - val_loss: 36.0056
+Epoch 23/51
+18/18 [==============================] - 130s 7s/step - loss: 39.3225 - val_loss: 36.6781
+Epoch 24/51
+18/18 [==============================] - 127s 7s/step - loss: 38.8153 - val_loss: 32.7939
+Epoch 25/51
+18/18 [==============================] - 127s 7s/step - loss: 37.3585 - val_loss: 32.4422
+Epoch 26/51
+18/18 [==============================] - 131s 7s/step - loss: 36.1507 - val_loss: 32.1383
+Epoch 27/51
+18/18 [==============================] - 130s 7s/step - loss: 35.0664 - val_loss: 30.8596
+Epoch 28/51
+18/18 [==============================] - 130s 7s/step - loss: 34.3383 - val_loss: 29.6967
+Epoch 29/51
+18/18 [==============================] - 131s 7s/step - loss: 33.7933 - val_loss: 29.0823
+Epoch 30/51
+18/18 [==============================] - 129s 7s/step - loss: 32.8866 - val_loss: 29.6019
+Epoch 31/51
+18/18 [==============================] - 127s 7s/step - loss: 32.4386 - val_loss: 28.8201
+Epoch 32/51
+18/18 [==============================] - 132s 7s/step - loss: 31.5275 - val_loss: 28.3944
+Epoch 33/51
+18/18 [==============================] - 129s 7s/step - loss: 30.4439 - val_loss: 27.8637
+Epoch 34/51
+18/18 [==============================] - 130s 7s/step - loss: 30.1226 - val_loss: 27.5312
+Epoch 35/51
+18/18 [==============================] - 128s 7s/step - loss: 29.6509 - val_loss: 27.0144
+Epoch 36/51
+18/18 [==============================] - 130s 7s/step - loss: 29.2769 - val_loss: 27.0969
+Epoch 37/51
+18/18 [==============================] - 132s 7s/step - loss: 28.6193 - val_loss: 25.8959
+Epoch 38/51
+18/18 [==============================] - 126s 7s/step - loss: 28.1112 - val_loss: 26.4127
+Epoch 39/51
+18/18 [==============================] - 132s 7s/step - loss: 27.7403 - val_loss: 25.3454
+Epoch 40/51
+18/18 [==============================] - 129s 7s/step - loss: 27.7138 - val_loss: 24.5137
+Epoch 41/51
+18/18 [==============================] - 129s 7s/step - loss: 26.9747 - val_loss: 25.3597
+Epoch 42/51
+18/18 [==============================] - 128s 7s/step - loss: 26.7895 - val_loss: 24.3440
+Epoch 43/51
+18/18 [==============================] - 132s 7s/step - loss: 26.3830 - val_loss: 24.6944
+Epoch 44/51
+18/18 [==============================] - 128s 7s/step - loss: 26.2771 - val_loss: 23.4449
+Epoch 45/51
+18/18 [==============================] - 128s 7s/step - loss: 25.5259 - val_loss: 23.6962
+Epoch 46/51
+18/18 [==============================] - 130s 7s/step - loss: 25.2634 - val_loss: 23.2304
+Epoch 47/51
+18/18 [==============================] - 131s 7s/step - loss: 25.2120 - val_loss: 24.0743
+Epoch 48/51
+18/18 [==============================] - 125s 7s/step - loss: 25.0740 - val_loss: 22.8958
+Epoch 49/51
+18/18 [==============================] - 130s 7s/step - loss: 24.3281 - val_loss: 22.9409
+Epoch 50/51
+18/18 [==============================] - 128s 7s/step - loss: 24.3575 - val_loss: 23.0427
+Epoch 51/51
+18/18 [==============================] - 134s 7s/step - loss: 24.2944 - val_loss: 22.7606
+Unfreeze all layers.
+Train on 594 samples, val on 66 samples, with batch size 4.
+Epoch 52/102
+2019-11-01 06:10:06.981471: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] shape_optimizer failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 06:10:07.391982: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] remapper failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 06:10:09.164627: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] layout failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 06:10:11.017815: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] shape_optimizer failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 06:10:11.314903: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] remapper failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+147/148 [============================>.] - ETA: 0s - loss: 16.15652019-11-01 06:12:16.455221: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] remapper failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 06:12:16.610954: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] layout failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+2019-11-01 06:12:16.793741: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:502] remapper failed: Invalid argument: Subshape must have computed start >= end since stride is negative, but is 0 and 2 (computed from start 0 and end 9223372036854775807 over shape with rank 2 and stride-1)
+148/148 [==============================] - 137s 928ms/step - loss: 16.1627 - val_loss: 14.4656
+Epoch 53/102
+148/148 [==============================] - 130s 879ms/step - loss: 14.3683 - val_loss: 13.4808
+Epoch 54/102
+148/148 [==============================] - 130s 877ms/step - loss: 13.8699 - val_loss: 14.0499
+Epoch 55/102
+148/148 [==============================] - 133s 898ms/step - loss: 13.9054 - val_loss: 13.5189
+Epoch 56/102
+148/148 [==============================] - 130s 877ms/step - loss: 13.4337 - val_loss: 12.7356
+Epoch 57/102
+148/148 [==============================] - 132s 894ms/step - loss: 13.2250 - val_loss: 13.3965
+Epoch 58/102
+148/148 [==============================] - 132s 895ms/step - loss: 13.2008 - val_loss: 12.6880
+Epoch 59/102
+148/148 [==============================] - 131s 885ms/step - loss: 12.9349 - val_loss: 13.1009
+Epoch 60/102
+148/148 [==============================] - 132s 893ms/step - loss: 12.9993 - val_loss: 12.7713
+Epoch 61/102
+148/148 [==============================] - 130s 876ms/step - loss: 12.7967 - val_loss: 12.6751
+Epoch 62/102
+148/148 [==============================] - 130s 879ms/step - loss: 12.7057 - val_loss: 12.4942
+Epoch 63/102
+148/148 [==============================] - 131s 886ms/step - loss: 12.7622 - val_loss: 12.8457
+Epoch 64/102
+148/148 [==============================] - 132s 893ms/step - loss: 12.7106 - val_loss: 12.3563
+Epoch 65/102
+148/148 [==============================] - 133s 897ms/step - loss: 12.1445 - val_loss: 11.7284
+Epoch 66/102
+148/148 [==============================] - 132s 892ms/step - loss: 12.6606 - val_loss: 12.7545
+Epoch 67/102
+148/148 [==============================] - 129s 875ms/step - loss: 12.3878 - val_loss: 12.7774
+Epoch 68/102
+148/148 [==============================] - 131s 882ms/step - loss: 12.3639 - val_loss: 11.9833
+
+Epoch 00068: ReduceLROnPlateau reducing learning rate to 9.999999747378752e-06.
+Epoch 69/102
+148/148 [==============================] - 130s 878ms/step - loss: 11.8075 - val_loss: 11.1940
+Epoch 70/102
+148/148 [==============================] - 129s 873ms/step - loss: 11.7555 - val_loss: 11.8384
+Epoch 71/102
+148/148 [==============================] - 132s 892ms/step - loss: 11.9701 - val_loss: 11.6140
+Epoch 72/102
+148/148 [==============================] - 132s 892ms/step - loss: 11.5978 - val_loss: 12.0117
+
+Epoch 00072: ReduceLROnPlateau reducing learning rate to 9.999999747378752e-07.
+Epoch 73/102
+148/148 [==============================] - 131s 888ms/step - loss: 11.6974 - val_loss: 11.2615
+Epoch 74/102
+148/148 [==============================] - 130s 878ms/step - loss: 11.7161 - val_loss: 11.8094
+Epoch 75/102
+148/148 [==============================] - 132s 891ms/step - loss: 11.6056 - val_loss: 11.8577
+
+Epoch 00075: ReduceLROnPlateau reducing learning rate to 9.999999974752428e-08.
+Epoch 76/102
+148/148 [==============================] - 129s 873ms/step - loss: 11.6838 - val_loss: 11.8718
+Epoch 77/102
+148/148 [==============================] - 133s 902ms/step - loss: 11.6713 - val_loss: 11.7915
+Epoch 78/102
+148/148 [==============================] - 126s 849ms/step - loss: 11.6476 - val_loss: 11.4095
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.0000000116860975e-08.
+Epoch 79/102
+148/148 [==============================] - 133s 898ms/step - loss: 11.6089 - val_loss: 11.4047
+Epoch 00079: early stopping
